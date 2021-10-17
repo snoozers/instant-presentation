@@ -1,0 +1,4 @@
+docs/*.md
+!docs/example.md
+docs/images
+docs/images/example.png

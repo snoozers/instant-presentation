@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  present:
+    container_name: instant-presentation
+    build: .
+    tty: true
+    volumes:
+      - type: bind
+        source: "./docs"
+        target: "/var/www"
+    working_dir: /var/www
